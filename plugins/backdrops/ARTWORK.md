@@ -37,7 +37,7 @@ Original artwork and music, © 2026 neverblinks.
 
 Drawn in code by neverblinks after a free Unsplash photo by universtock.
 
-## Ember
+## Night Hearth
 
 A warm glow in the corner of a dark, grainy screen, © 2026 neverblinks.
 

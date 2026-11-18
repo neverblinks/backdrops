@@ -137,7 +137,7 @@ test('None is the last preview, and Enter after it stores no backdrop as the def
   const clock = stub(on)
   const ui = await open($)
   await ui.key({ key: 'right', in: 'hit-reaching' })
-  // page two: Fractal Glass, Ember, None
+  // page two: Fractal Glass, Night Hearth, None
   expect(await ui.find({ key: 'tile-off' })).toBeDefined()
   await layOut(ui, ['fractal-glass', 'ember', 'off'])
   await click(ui, 'hit-off')

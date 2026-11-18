@@ -28,7 +28,7 @@
     {
       "name": "ember",
       "source": "./plugins/ember",
-      "description": "Ember alone."
+      "description": "Night Hearth alone."
     },
     {
       "name": "fractal-glass",

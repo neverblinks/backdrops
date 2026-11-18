@@ -12,7 +12,7 @@ of each, or install only the themes you like.
 
 ## Themes
 
-<p align="center"><a href="#reaching">Reaching</a> · <a href="#magenta-hour">Magenta Hour</a> · <a href="#after-hours">After Hours</a> · <a href="#crossing-hour">Crossing Hour</a> · <a href="#promenade">Promenade</a> · <a href="#coast-road">Coast Road</a> · <a href="#ocean-road">Ocean Road</a> · <a href="#fractal-glass">Fractal Glass</a> · <a href="#ember">Ember</a></p>
+<p align="center"><a href="#reaching">Reaching</a> · <a href="#magenta-hour">Magenta Hour</a> · <a href="#after-hours">After Hours</a> · <a href="#crossing-hour">Crossing Hour</a> · <a href="#promenade">Promenade</a> · <a href="#coast-road">Coast Road</a> · <a href="#ocean-road">Ocean Road</a> · <a href="#fractal-glass">Fractal Glass</a> · <a href="#night-hearth">Night Hearth</a></p>
 
 ### Reaching
 ![Reaching, live](assets/live/reaching.svg)
@@ -63,8 +63,8 @@ over the top, the coastal express passes, swell breaks on the skerries.
 
 A blue glow drifting behind a pane of fluted glass.
 
-### Ember
-![Ember, live](assets/live/ember.svg)
+### Night Hearth
+![Night Hearth, live](assets/live/ember.svg)
 
 A warm glow breathing in the corner of a dark, grainy screen.
 
@@ -99,7 +99,7 @@ Music has its own commands (below). Each theme, as its live card:
 | ![](cards/crossing-hour.svg) | ![](cards/promenade.svg) | ![](cards/coast-road.svg) |
 | Crossing Hour | Promenade | Coast Road |
 | ![](cards/ocean-road.svg) | ![](cards/fractal-glass.svg) | ![](cards/ember.svg) |
-| Ocean Road | Fractal Glass | Ember |
+| Ocean Road | Fractal Glass | Night Hearth |
 
 [↑ Back to top](#backdrops)
 
@@ -122,7 +122,7 @@ Open a new session and type `/backdrops`.
 <summary>One theme only, an older Claude Code, removing</summary>
 
 - **One theme only:** use `reaching`, `magenta-hour`, `after-hours`, `crossing-hour`, `promenade`, `coast-road`,
-  `ocean-road`, `fractal-glass` or `ember` in place of `backdrops`. Install the picker or single themes, not both:
+  `ocean-road`, `fractal-glass` or `ember` (Night Hearth) in place of `backdrops`. Install the picker or single themes, not both:
   only one backdrop shows at a time.
 - **Terminal says `--marketplace` is unknown:** your Claude Code is older. Run `claude update`, or inside a Claude
   Code session run `/plugin marketplace add neverblinks/backdrops`, then `/plugin install backdrops@backdrops`.

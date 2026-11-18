@@ -4,7 +4,7 @@ import type { Theme } from './theme'
 
 // Warm near-black surfaces, an orange accent; text lifted a touch so the glow behind it stays readable.
 const colors = makeColors({
-  label: 'Ember',
+  label: 'Night Hearth',
   only: 'dark',
   codeTheme: { dark: 'ayu-dark' },
   roles: { accent: '#f07a32', danger: '#e85a4a', success: '#6cc48a', warning: '#e6b04e', pro: '#a98cf6' },
@@ -27,7 +27,7 @@ export const EMBER_PROBLEMS = colors.problems
 
 export const EMBER: Theme = {
   id: 'ember',
-  title: 'Ember',
+  title: 'Night Hearth',
   blurb: 'A warm glow breathes in the corner of a dark, grainy screen.',
   scene: SCENE,
   alt: 'A dark, finely grained screen with a warm orange glow rising from the bottom-right corner',

@@ -32,7 +32,7 @@ Each plugin installs on its own, so the parts plugins share are copied into each
 folders. `tools/build.py` does the copying: edit the source, never the copy.
 
 A generator writes `plugins/<id>/hooks/scene-<id>.js` and `cards/<id>.svg`. The bridge rides' generators need
-numpy. Ember's and Fractal Glass's scenes have no generator here and are committed as built.
+numpy. Night Hearth's and Fractal Glass's scenes have no generator here and are committed as built.
 
 ## Add a theme
 
