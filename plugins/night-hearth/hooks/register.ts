@@ -1,6 +1,6 @@
 import type { EngineInterface, Register, RenderElement } from 'claude-code'
 
-import { EMBER, EMBER_PROBLEMS } from './look-ember'
+import { NIGHT_HEARTH, NIGHT_HEARTH_PROBLEMS } from './look-night-hearth'
 import type { Theme } from './theme'
 
 /**
@@ -44,10 +44,10 @@ export function parseSingle(themes: readonly Theme[], args: string): SingleReque
 const CHOICE_KEY = 'choice'
 const MUSIC_KEY = 'music'
 
-const PLUGIN = 'ember'
-const COMMAND = 'ember'
-const THEMES: readonly Theme[] = [EMBER]
-const PROBLEMS: readonly string[] = EMBER_PROBLEMS
+const PLUGIN = 'night-hearth'
+const COMMAND = 'night-hearth'
+const THEMES: readonly Theme[] = [NIGHT_HEARTH]
+const PROBLEMS: readonly string[] = NIGHT_HEARTH_PROBLEMS
 const FIRST: Theme = THEMES[0] as Theme
 const VERSIONS = THEMES.map(one => one.version).filter((v): v is string => v !== undefined)
 const USAGE = [`/${COMMAND}`, ...VERSIONS.map(v => `/${COMMAND} ${v}`), `/${COMMAND} off`].join(', ')

@@ -1,2 +1,2 @@
-/** The ember backdrop: one SVG document. */
+/** The Night Hearth backdrop: one SVG document. */
 export declare const SCENE: string

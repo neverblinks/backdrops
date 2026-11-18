@@ -1,5 +1,5 @@
 import { makeColors } from './make-colors.js'
-import { SCENE } from './scene-ember.js'
+import { SCENE } from './scene-night-hearth.js'
 import type { Theme } from './theme'
 
 // Warm near-black surfaces, an orange accent; text lifted a touch so the glow behind it stays readable.
@@ -23,17 +23,17 @@ const colors = makeColors({
   },
 })
 
-export const EMBER_PROBLEMS = colors.problems
+export const NIGHT_HEARTH_PROBLEMS = colors.problems
 
-export const EMBER: Theme = {
-  id: 'ember',
+export const NIGHT_HEARTH: Theme = {
+  id: 'night-hearth',
   title: 'Night Hearth',
   blurb: 'A warm glow breathes in the corner of a dark, grainy screen.',
   scene: SCENE,
   alt: 'A dark, finely grained screen with a warm orange glow rising from the bottom-right corner',
   look: {
     colors: colors.theme,
-    backdrop: { scene: 'ember', glass: { blur: 0, tint: '#0a0603', opacity: 0.43 } },
+    backdrop: { scene: 'night-hearth', glass: { blur: 0, tint: '#0a0603', opacity: 0.43 } },
     overrideColorScheme: 'dark',
   },
 }

@@ -24,6 +24,8 @@ const PLUGIN = 'backdrops'
 const COMMAND = 'backdrops'
 const CARD = 'backdrops-card'  // each /backdrops places `backdrops-card-<n>`: a new row at the transcript's end
 const DEFAULT_KEY = 'default'
+// themes whose id changed: a default saved under the old id still finds the theme
+const RENAMED: Readonly<Record<string, string>> = { ember: 'night-hearth' }
 const FIRST_DEFAULT = 'reaching'
 
 /** The theme this session shows (module memory; set where a theme is shown). */
@@ -290,7 +292,7 @@ export function parseLook(args: string): LookRequest {
 async function defaultChoice($: EngineInterface): Promise<string> {
   const stored = await $.store.get(DEFAULT_KEY)
 
-  return typeof stored === 'string' ? stored : FIRST_DEFAULT
+  return typeof stored === 'string' ? (RENAMED[stored] ?? stored) : FIRST_DEFAULT
 }
 
 /** The theme this session shows: its own pick, else the default. 'off' for none. */
@@ -589,7 +591,7 @@ const SIGNATURES: Readonly<Record<string, readonly [string, string]>> = {
   'coast-road': ['#ffb06a', '#8a6fd6'],
   'ocean-road': ['#3fd1b5', '#2f86c8'],
   'fractal-glass': ['#8ccaff', '#2f6cf0'],
-  ember: ['#ffc06a', '#e8541e'],
+  'night-hearth': ['#ffc06a', '#e8541e'],
   [NONE_ID]: ['#c9ced6', '#6b7480'],   // a cool neutral, not Reaching's white-to-black
 }
 

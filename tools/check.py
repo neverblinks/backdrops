@@ -174,7 +174,7 @@ def find_numpy_python(modules: str = "numpy") -> str | None:
 # disappears breaks their install (plugin not found). Add names here; never remove one (CONTRIBUTING.md).
 MARKETPLACE = "backdrops"
 PUBLISHED = ("backdrops", "reaching", "magenta-hour", "after-hours", "ember", "fractal-glass", "crossing-hour",
-             "promenade", "coast-road", "ocean-road")
+             "promenade", "coast-road", "ocean-road", "night-hearth")
 
 
 def check_plugins(copy: Path) -> Result:

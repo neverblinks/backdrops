@@ -122,8 +122,8 @@ test('two pages: turned by the arrows, the arrow keys and resting at an edge', a
   expect(await page()).toBe(1)
   await ui.key({ key: 'right', in: 'hit-reaching' })
   expect(await page()).toBe(2)
-  await layOut(ui, ['fractal-glass', 'ember', 'off'])
-  await ui.key({ key: 'left', in: 'hit-ember' })
+  await layOut(ui, ['fractal-glass', 'night-hearth', 'off'])
+  await ui.key({ key: 'left', in: 'hit-night-hearth' })
   expect(await page()).toBe(1)
   // resting the pointer at the last preview's outer edge turns the page
   await layOut(ui, FIRST_PAGE)
@@ -139,7 +139,7 @@ test('None is the last preview, and Enter after it stores no backdrop as the def
   await ui.key({ key: 'right', in: 'hit-reaching' })
   // page two: Fractal Glass, Night Hearth, None
   expect(await ui.find({ key: 'tile-off' })).toBeDefined()
-  await layOut(ui, ['fractal-glass', 'ember', 'off'])
+  await layOut(ui, ['fractal-glass', 'night-hearth', 'off'])
   await click(ui, 'hit-off')
   await ui.key({ key: 'return', in: 'hit-off' })
   expect(await ui.find({ type: 'Text', text: /No backdrop is your default/ })).toBeDefined()
@@ -165,7 +165,7 @@ test('the terminal gets buttons: one per theme and None, and Make default once o
     props: { plugin: 'backdrops', id: CARD_ID } })
   expect(await ui.find({ key: 'try-off' })).toBeDefined()
   expect(await ui.find({ key: 'keep-button' })).toBeUndefined()
-  await ui.press({ key: 'try-ember' })
+  await ui.press({ key: 'try-night-hearth' })
   expect(await ui.find({ key: 'keep-button' })).toBeDefined()
   await ui.unmount()
 })
@@ -199,5 +199,5 @@ test('the backdrop draws one picture for each theme', async ($) => {
 
 test('the previews keep one fixed order: Reaching first, whatever the default', async () => {
   // the default is marked on its preview, not moved, so every preview stays where it was last time
-  expect(THEMES.map(theme => theme.id)).toEqual(['reaching', 'magenta-hour', 'after-hours', 'crossing-hour', 'promenade', 'coast-road', 'ocean-road', 'fractal-glass', 'ember'])
+  expect(THEMES.map(theme => theme.id)).toEqual(['reaching', 'magenta-hour', 'after-hours', 'crossing-hour', 'promenade', 'coast-road', 'ocean-road', 'fractal-glass', 'night-hearth'])
 })

@@ -1,4 +1,4 @@
-import { EMBER, EMBER_PROBLEMS } from './look-ember'
+import { NIGHT_HEARTH, NIGHT_HEARTH_PROBLEMS } from './look-night-hearth'
 import { FRACTAL_GLASS, FRACTAL_GLASS_PROBLEMS } from './look-fractal-glass'
 import { MAGENTA_HOUR, MAGENTA_HOUR_PROBLEMS } from './look-magenta-hour'
 import { AFTER_HOURS, AFTER_HOURS_PROBLEMS } from './look-after-hours'
@@ -14,14 +14,14 @@ export type PickerTheme = Theme
 
 // Card order, one row: Reaching first (the collection's signature), the two Miami nights, the three bridges,
 // the causeway, then blue glass and the warm glow. None follows them on the card.
-export const THEMES: readonly PickerTheme[] = [REACHING, MAGENTA_HOUR, AFTER_HOURS, CROSSING_HOUR, PROMENADE, COAST_ROAD, OCEAN_ROAD, FRACTAL_GLASS, EMBER]
+export const THEMES: readonly PickerTheme[] = [REACHING, MAGENTA_HOUR, AFTER_HOURS, CROSSING_HOUR, PROMENADE, COAST_ROAD, OCEAN_ROAD, FRACTAL_GLASS, NIGHT_HEARTH]
 
 /** Lines the desktop won't paint, from any theme's palette: shown once at session start. */
 export const PAINT_PROBLEMS: readonly string[] = [
   ...REACHING_PROBLEMS,
   ...MAGENTA_HOUR_PROBLEMS,
   ...AFTER_HOURS_PROBLEMS,
-  ...EMBER_PROBLEMS,
+  ...NIGHT_HEARTH_PROBLEMS,
   ...FRACTAL_GLASS_PROBLEMS,
   ...CROSSING_HOUR_PROBLEMS,
   ...PROMENADE_PROBLEMS,

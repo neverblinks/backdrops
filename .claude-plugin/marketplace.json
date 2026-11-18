@@ -4,6 +4,9 @@
   "owner": {
     "name": "neverblinks"
   },
+  "renames": {
+    "ember": "night-hearth"
+  },
   "plugins": [
     {
       "name": "backdrops",
@@ -26,8 +29,8 @@
       "description": "After Hours alone."
     },
     {
-      "name": "ember",
-      "source": "./plugins/ember",
+      "name": "night-hearth",
+      "source": "./plugins/night-hearth",
       "description": "Night Hearth alone."
     },
     {

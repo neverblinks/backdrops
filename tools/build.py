@@ -34,10 +34,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PLUGINS = ROOT / "plugins"
 PICKER = PLUGINS / "backdrops"
-SINGLES = ["reaching", "magenta-hour", "after-hours", "ember", "fractal-glass", "crossing-hour", "promenade", "coast-road", "ocean-road"]
+SINGLES = ["reaching", "magenta-hour", "after-hours", "night-hearth", "fractal-glass", "crossing-hour", "promenade", "coast-road", "ocean-road"]
 # the picker's themes, each with cards/<id>.svg (the README's live card) and cards/<id>.webp (the picker's preview),
 # in the picker's order
-CARDS = ("reaching", "magenta-hour", "after-hours", "crossing-hour", "promenade", "coast-road", "ocean-road", "fractal-glass", "ember")
+CARDS = ("reaching", "magenta-hour", "after-hours", "crossing-hour", "promenade", "coast-road", "ocean-road", "fractal-glass", "night-hearth")
 # in a single plugin but not in the picker (one Reaching in the picker is enough)
 NOT_IN_PICKER = {"scene-reaching-classic.js", "scene-reaching-classic.d.ts", "look-reaching-classic.ts"}
 SCENE_MAX, CARD_MAX, CARDS_MAX, PHOTO_MAX = 131_072, 20_000, 210_000, 12_000
@@ -51,8 +51,8 @@ SINGLE = {
                  "Reaching backdrop: clear (default), classic (with a tint), or off"),
     "after-hours": ("After Hours", "import { AFTER_HOURS, AFTER_HOURS_PROBLEMS } from './look-after-hours'",
                     "[AFTER_HOURS]", "AFTER_HOURS_PROBLEMS", "After Hours backdrop (a synthwave Miami night), or off"),
-    "ember": ("Night Hearth", "import { EMBER, EMBER_PROBLEMS } from './look-ember'",
-              "[EMBER]", "EMBER_PROBLEMS", "Night Hearth backdrop (a warm glow in the corner), or off"),
+    "night-hearth": ("Night Hearth", "import { NIGHT_HEARTH, NIGHT_HEARTH_PROBLEMS } from './look-night-hearth'",
+              "[NIGHT_HEARTH]", "NIGHT_HEARTH_PROBLEMS", "Night Hearth backdrop (a warm glow in the corner), or off"),
     "fractal-glass": ("Fractal Glass", "import { FRACTAL_GLASS, FRACTAL_GLASS_PROBLEMS } from './look-fractal-glass'",
         "[FRACTAL_GLASS]", "FRACTAL_GLASS_PROBLEMS", "Fractal Glass backdrop (a blue glow behind fluted glass), or off"),
     "crossing-hour": ("Crossing Hour", "import { CROSSING_HOUR, CROSSING_HOUR_PROBLEMS } from './look-crossing-hour'",
