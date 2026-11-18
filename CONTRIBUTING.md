@@ -50,7 +50,7 @@ numpy. Ember's and Fractal Glass's scenes have no generator here and are committ
    `python3 tools/make-photos.py <id>` (it needs Chrome and Pillow); run it again whenever the scene changes.
 6. **Build.** Run the generator, then `python3 -I tools/build.py` and `python3 -I tools/make-previews.py`.
 7. **Words.** Add the theme's section and preview to `README.md`, and its credits to `ARTWORK.md` if it uses
-   anyone's art or music.
+   anyone's art.
 8. **Check.** Run `python3 tools/check.py --paint` (next section). Then open a new session in the desktop app,
    apply the theme, and confirm it still moves after the first few seconds and the text stays readable.
 

@@ -192,8 +192,8 @@ size and what you saw. How the repository works: [CONTRIBUTING.md](CONTRIBUTING.
 
 ## Licence
 
-- **Code:** [MIT](LICENSE). Use it, change it, build on it, at work too.
-- **Artwork and music:** not for sale or redistribution. Reaching's artwork belongs to @samdape.
+- **Code and music:** [MIT](LICENSE). Use it, change it, build on it, at work too.
+- **Artwork:** not for sale or redistribution. Reaching's artwork belongs to @samdape.
   See [ARTWORK.md](ARTWORK.md).
 
 [↑ Back to top](#backdrops)

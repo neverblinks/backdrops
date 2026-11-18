@@ -1,22 +1,21 @@
-# The artwork and the music
+# The artwork
 
-The code in this repository is under the MIT licence (LICENSE). The pictures and the music are **not**: they
-are covered here.
+The code and the music are MIT (LICENSE). The pictures are **not**: they are covered here.
 
-**What counts as the pictures and the music:**
+**What counts as the pictures:**
 
 - everything in `themes/`: the scene generators, their data and their helpers;
 - everything in `cards/` and `assets/`;
-- every `scene-*.js` and `photos.ts` file in `plugins/*/hooks/`, and every file in `plugins/*/music/`.
+- every `scene-*.js` and `photos.ts` file in `plugins/*/hooks/`.
 
 Anything not plainly code that is in doubt is covered here too.
 
 **Anyone may** install and use every theme for free, for any purpose, at work included, and may share links
-to this repository. You may **not**, without permission:
+to this repository. Theme directories may list the themes and show their previews. You may **not**, without permission:
 
-- sell the pictures or the music, or anything made from them: prints, wallpapers, NFTs, theme packs, paid
+- sell the pictures, or anything made from them: prints, wallpapers, NFTs, theme packs, paid
   downloads;
-- redistribute the pictures or the music outside this repository, or claim them as your own;
+- redistribute the pictures outside this repository, or claim them as your own;
 - remove or hide the credits below.
 
 ## Reaching
@@ -32,8 +31,7 @@ dots (`themes/reaching/fresco-arms.json`, made by `themes/reaching/trace-arms.py
 
 ## Magenta Hour and After Hours
 
-Original artwork and original music (three tracks synthesised in code by
-`themes/magenta-hour/make-music.py`, nothing sampled), © 2026 neverblinks.
+Original artwork and music, © 2026 neverblinks.
 
 ## Fractal Glass
 
