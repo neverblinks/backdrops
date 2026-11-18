@@ -1,0 +1,9 @@
+{
+  "name": "reaching",
+  "version": "1.0.0",
+  "description": "Reaching alone: two hands in dots that turn to ASCII as a wave passes, on true black. /reaching clear | classic | off.",
+  "author": {
+    "name": "neverblinks",
+    "url": "https://github.com/neverblinks"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "backdrops",
+  "description": "Animated backdrops for the Claude desktop app: a picker with every theme, or each theme on its own.",
+  "owner": {
+    "name": "neverblinks"
+  },
+  "plugins": [
+    {
+      "name": "backdrops",
+      "source": "./plugins/backdrops",
+      "description": "The picker: every theme with a preview, /backdrops."
+    },
+    {
+      "name": "reaching",
+      "source": "./plugins/reaching",
+      "description": "Reaching alone."
+    },
+    {
+      "name": "magenta-hour",
+      "source": "./plugins/magenta-hour",
+      "description": "Magenta Hour alone, with optional music."
+    },
+    {
+      "name": "after-hours",
+      "source": "./plugins/after-hours",
+      "description": "After Hours alone."
+    },
+    {
+      "name": "ember",
+      "source": "./plugins/ember",
+      "description": "Ember alone."
+    },
+    {
+      "name": "fractal-glass",
+      "source": "./plugins/fractal-glass",
+      "description": "Fractal Glass alone."
+    },
+    {
+      "name": "crossing-hour",
+      "source": "./plugins/crossing-hour",
+      "description": "Crossing Hour alone."
+    },
+    {
+      "name": "promenade",
+      "source": "./plugins/promenade",
+      "description": "Promenade alone."
+    },
+    {
+      "name": "coast-road",
+      "source": "./plugins/coast-road",
+      "description": "Coast Road alone."
+    },
+    {
+      "name": "ocean-road",
+      "source": "./plugins/ocean-road",
+      "description": "Ocean Road alone."
+    }
+  ]
+}
